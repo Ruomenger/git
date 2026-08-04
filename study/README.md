@@ -18,6 +18,7 @@ git rev-parse HEAD
 
 ## 文档索引
 
+- [架构与核心概念导览](architecture-overview.md)：对象库、引用、索引三大抽象，源码分层地图，以及 `git commit` 的完整调用链路。建议作为第一篇。
 - [Debug 构建与 clangd 配置](debug-build.md)：使用 Make 构建 Debug 版本，并通过 Bear 生成 `compile_commands.json`。
 - [Git 命令分发与进程模型](command-dispatch-and-process-model.md)：解释 builtin、`git-*` 硬链接、独立程序、脚本和按需子进程之间的关系。
 - [Git 中的 Rust](rust-in-git.md)：Rust 的引入时间线、当前用途、C/Rust 边界和后续计划。
