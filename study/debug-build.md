@@ -10,9 +10,9 @@
 
 ```text
 GNU Make 3.81
-Bear 4.1.5
-Homebrew clangd 22.1.8
-Apple Clang (/usr/bin/cc)
+Bear 4.2.1
+Homebrew clangd 23.1.0
+Apple clang 17.0.0 (/usr/bin/cc)
 ```
 
 可以重新检查本机环境：
